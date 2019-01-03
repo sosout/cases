@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<title>Npm-fiddly</title>
+<meta charset="utf-8">
+
+
+<meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="">
+  <meta name="image" content="">
+  <meta itemprop="name" content="npm-fiddly">
+  <meta itemprop="description" content="">
+  <meta itemprop="image" content="">
+  <meta name="og:title" content="npm-fiddly">
+  <meta name="og:description" content="">
+  <meta name="og:url" content="undefined">
+  <meta name="og:site_name" content="npm-fiddly">
+  <meta name="og:type" content="website">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="white">
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<div id="fiddly"><div class="body light"><div class="container"><header><h1>npm-fiddly</h1>
+      
+      </header><h1 id="fiddly"><a id="user-content-fiddly" class="anchor" href="#fiddly" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fiddly</h1>
+<p>Create beautiful and simple HTML pages from your Readme.md files</p>
+<ul>
+<li>🛠 No config</li>
+<li>👩‍💻 Code Highlighting</li>
+<li>💯Emoji Support</li>
+<li>✨Creates Static files (only JS is prism)</li>
+<li>🏳️‍🌈 Pretty Pages</li>
+<li>🦄 Customizable</li>
+<li>🖼 Image minification</li>
+<li>🇳🇱 <a href="https://codesandbox.io" target="_blank">CodeSandbox</a> and iframe Support</li>
+</ul>
+<pre class="language-bash"><code class="language-bash">yarn add fiddly --dev
+</code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> fiddly --save-dev
+</code></pre>
+<h2 id="usage"><a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  ...
+  <span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"build:demo"</span><span class="token operator">:</span> <span class="token string">"fiddly"</span><span class="token punctuation">,</span>
+    ....
+  <span class="token punctuation">}</span>
+</code></pre>
+<p>Deploy automatically to netlify 🎉</p>
+<p><a href="https://fiddly.netlify.com/" target="_blank">This Readme on Netlify</a></p>
+<p><a href="https://5c2678b67b891f18dc5a2a42--fiddly.netlify.com/" target="_blank">This Readme with white theme</a></p>
+<h2 id="usage-with-npx"><a id="user-content-usage-with-npx" class="anchor" href="#usage-with-npx" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage with npx</h2>
+<!-- markdownlint-disable --><p>If you just want a quick fancy HTML page from the Readme but don't care about running this in continuous deployment you can also use <code>npx</code> to run it as a one time thing.</p>
+<!-- markdownlint-enable --><pre class="language-bash"><code class="language-bash">  npx fiddly
+</code></pre>
+<p>By running this in the root folder you will also get a public folder</p>
+<h2 id="options"><a id="user-content-options" class="anchor" href="#options" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Options</h2>
+<p>Options are placed in a <code>.fiddly.config.json</code> or as a <code>fiddly</code> key in <code>package.json</code>.
+It can contain the following options:</p>
+<!-- markdownlint-disable --><table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>file</td>
+<td>Readme.md, readme.md, or README.md</td>
+<td>Your Readme.md name</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name in package.json</td>
+<td>The project name that is in the title and the header</td>
+</tr>
+<tr>
+<td>logo</td>
+<td>''</td>
+<td>The project logo that is in the header</td>
+</tr>
+<tr>
+<td>description</td>
+<td>description in package.json</td>
+<td>The project description for meta tags</td>
+</tr>
+<tr>
+<td>homepage</td>
+<td>null</td>
+<td>The project homepage for meta tags</td>
+</tr>
+<tr>
+<td>noHeader</td>
+<td>false</td>
+<td>Show no header and just the markdown content</td>
+</tr>
+<tr>
+<td>darkTheme</td>
+<td>false</td>
+<td>Dark theme ofc 🎉</td>
+</tr>
+<tr>
+<td>favicon</td>
+<td>''</td>
+<td>Favicon url or local path</td>
+</tr>
+<tr>
+<td>dist</td>
+<td>public</td>
+<td>To what folder to render your HTML</td>
+</tr>
+<tr>
+<td>styles</td>
+<td>{}</td>
+<td>Styles to apply to the page. Object or path to css/scss file</td>
+</tr>
+<tr>
+<td>additionalFiles</td>
+<td>[]</td>
+<td>Any other pages to create. It expects an array of paths of markdown files</td>
+</tr>
+<tr>
+<td>repo</td>
+<td>null</td>
+<td>Link to point the github corner</td>
+</tr>
+<tr>
+<td>pathPrefix</td>
+<td>Environment var PATH_PREFIX or '/'</td>
+<td>Host your fiddly files at e.g. /my-fiddly-project</td>
+</tr>
+<tr>
+<td>deployment</td>
+<td>{}</td>
+<td>Deployment options for github pages. Accepts all options <a href="https://github.com/tschaub/gh-pages#options" target="_blank">here</a></td>
+</tr>
+</tbody>
+</table>
+<!-- markdownlint-enable --><h3 id="example-of-styles"><a id="user-content-example-of-styles" class="anchor" href="#example-of-styles" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example of styles</h3>
+<p>For styles you can either use a style object like so and that will override the
+default styles applied. Like so:</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"styles"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"h1"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"color"</span><span class="token operator">:</span> <span class="token string">"blue"</span><span class="token punctuation">,</span>
+      <span class="token property">"backgroundColor"</span><span class="token operator">:</span> <span class="token string">"red"</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>Another option is to give the path to a local css or scss file.
+In this case you need to override any specificity issues.
+You can by using the <code>#fiddly</code> id.
+Example:</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">body</span> <span class="token punctuation">{</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">#fiddly</span> <span class="token punctuation">{</span>
+  <span class="token selector">h1</span> <span class="token punctuation">{</span>
+    <span class="token property">text-transform</span><span class="token punctuation">:</span> uppercase<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="images"><a id="user-content-images" class="anchor" href="#images" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Images</h2>
+<p>Any images linked in your markdown that are local will be minified and copied to your dist folder.
+If some image is not found it will be ignored.</p>
+<h2 id="github-corner"><a id="user-content-github-corner" class="anchor" href="#github-corner" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Github Corner</h2>
+<p>The Github corner comes from either the <code>repo</code> option in your <code>.fiddly.config.json</code>
+or from the repository url in your <code>package.json</code>.
+If none is present it will not be shown.</p>
+<h2 id="lint"><a id="user-content-lint" class="anchor" href="#lint" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lint</h2>
+<p>Fiddly also exports a command to let you lint all the markdown files you specified.</p>
+<p>You can run this by using the <code>lint</code> command</p>
+<pre class="language-json"><code class="language-json"><span class="token property">"lint:md"</span> <span class="token operator">:</span> <span class="token string">"fiddly lint"</span>
+</code></pre>
+<h2 id="deploy"><a id="user-content-deploy" class="anchor" href="#deploy" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deploy</h2>
+<p>Fiddly also exports a command to let you deploy your new site to Github pages</p>
+<p>You can run this by using the <code>deploy</code> command</p>
+<pre class="language-json"><code class="language-json"><span class="token property">"lint:md"</span> <span class="token operator">:</span> <span class="token string">"fiddly deploy"</span>
+</code></pre>
+<p>Options for this can be passed in a <code>deployment</code> key in your config file.
+All options can be found here: <a href="https://github.com/tschaub/gh-pages#options" target="_blank">https://github.com/tschaub/gh-pages#options</a></p>
+<h2 id="acknowledgements"><a id="user-content-acknowledgements" class="anchor" href="#acknowledgements" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Acknowledgements</h2>
+<ul>
+<li>Base styles from <a href="https://github.com/lucagez/medium.css" target="_blank">medium.css</a></li>
+<li>Logo from <a href="http://www.openmoji.org/library.html?search=beautiful&amp;emoji=2728" target="_blank">OpenMoji</a></li>
+</ul>
+<h2 id="contributors"><a id="user-content-contributors" class="anchor" href="#contributors" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributors</h2>
+<!-- markdownlint-disable --><!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section --><!-- prettier-ignore --><table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="http://iamsaravieira.com" target="_blank"><img src="https://avatars0.githubusercontent.com/u/1051509?v=4" width="100px;"/><br /><sub><b>Sara Vieira</b></sub></a><br /><a href="https://github.com/SaraVieira/fiddly/commits?author=SaraVieira" title="Code" target="_blank">💻</a> <a href="#design-SaraVieira" title="Design" target="_blank">🎨</a> <a href="#ideas-SaraVieira" title="Ideas, Planning, &amp; Feedback" target="_blank">🤔</a></th>
+<th style="text-align:center"><a href="https://brunoscheufler.com" target="_blank"><img src="https://avatars2.githubusercontent.com/u/4772980?v=4" width="100px;"/><br /><sub><b>Bruno Scheufler</b></sub></a><br /><a href="https://github.com/SaraVieira/fiddly/commits?author=BrunoScheufler" title="Code" target="_blank">💻</a></th>
+<th style="text-align:center"><a href="https://sid.studio" target="_blank"><img src="https://avatars0.githubusercontent.com/u/1863771?v=4" width="100px;"/><br /><sub><b>Siddharth Kshetrapal</b></sub></a><br /><a href="https://github.com/SaraVieira/fiddly/commits?author=siddharthkp" title="Code" target="_blank">💻</a></th>
+<th style="text-align:center"><a href="https://jamonholmgren.com" target="_blank"><img src="https://avatars3.githubusercontent.com/u/1479215?v=4" width="100px;"/><br /><sub><b>Jamon Holmgren</b></sub></a><br /><a href="https://github.com/SaraVieira/fiddly/commits?author=jamonholmgren" title="Code" target="_blank">💻</a></th>
+<th style="text-align:center"><a href="http://timothy.is" target="_blank"><img src="https://avatars0.githubusercontent.com/u/1695613?v=4" width="100px;"/><br /><sub><b>Timothy</b></sub></a><br /><a href="https://github.com/SaraVieira/fiddly/commits?author=timothyis" title="Code" target="_blank">💻</a></th>
+<th style="text-align:center"><a href="https://github.com/cherniavskii" target="_blank"><img src="https://avatars2.githubusercontent.com/u/13808724?v=4" width="100px;"/><br /><sub><b>Andrew Cherniavskii</b></sub></a><br /><a href="https://github.com/SaraVieira/fiddly/commits?author=cherniavskii" title="Code" target="_blank">💻</a></th>
+<th style="text-align:center"><a href="https://github.com/TimKolberger" target="_blank"><img src="https://avatars2.githubusercontent.com/u/16899513?v=4" width="100px;"/><br /><sub><b>timkolberger</b></sub></a><br /><a href="https://github.com/SaraVieira/fiddly/commits?author=TimKolberger" title="Code" target="_blank">💻</a></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+<!-- ALL-CONTRIBUTORS-LIST:END --><!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section --><!-- ALL-CONTRIBUTORS-LIST:END --><!-- markdownlint-enable --><h2 id="license"><a id="user-content-license" class="anchor" href="#license" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p>MIT - see <a href="https://github.com/SaraVieira/fiddly/blob/master/LICENSE.md" target="_blank">LICENSE</a></p>
+</div></div></div>
+
+</body>
+</html>
