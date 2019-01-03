@@ -1,0 +1,14 @@
+{
+  "name": "npm-listr",
+  "version": "0.0.1",
+  "description": "终端任务列表",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Weich",
+  "license": "MIT",
+  "devDependencies": {
+    "listr": "^0.14.3"
+  }
+}
